@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fc7921bf9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class = "container">
+            <nav>
+            <img src = "images/logo.png" class = "logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>CODING ENTHUSIAST</p>
+            <h1><span>Hi</span>, Hope you find this <br>website interesting</h1>
+        </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a freshman at Thapar Institute of Engineering and Technology pursuing BTech in Electronics and Computers. Being a coding enthusiast, I try to stay updated about new technologies prevailing. I am resident of Jaipur. I have completed my high school from Seedling Public School. I look forward to learn more about Web Devlopment. I am currently learning Java. I am swift with Python therby I try to make as many mini project as I can utilizing Python. My hobbies are playing Table Tennis and cooking. I am trying to become a frequent reader. I like to stay updated about finance for that I follow <a class="link1" href="https://instagram.com/ankurwarikoo?igshid=YmMyMTA2M2Y=">Ankur Warikoo</a> and <a class = "link2" href="https://instagram.com/financewithsharan?igshid=YmMyMTA2M2Y=">Finance with Sharan</a></p>
+                    <div class = "tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick= "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id ="skills" >
+                        <ul>
+
+                        <li><span>Programming Language</span><br>Java<br>Python<br>C</li>
+                        <li><span>Web Devlopment</span><br>HTML5<br>CSS3</li>
+                        <li><span>Database</span><br>MySql</li>
+                        
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id = "education">
+                        <ul>
+
+                        <li><span>BTech</span><br>Thapar Institute of Engineering and Technology(2022-26)</li>
+                        <li><span>Senior Secondary High School</span><br>Seedling Public School(2020-22)</li>
+                        <li><span>High School</span><br>Seedling Public School(2010-20)</li>
+                        
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-------portfolia----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/StoryW.jpg">
+                 <div class="layer">
+                    <h3>
+                        Strory Generator
+                    </h3>
+                    <p>
+                        This module generates random Story. This module is based on Python
+                    </p>
+                    <a href="https://colab.research.google.com/drive/1F84ded3Q9b56cQFapvl9Vr7d_v1uIqDr?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/AlarmC.jpg">
+                <div class="layer">
+                    <h3>
+                        Alarm Clock
+                    </h3>
+                    <p>
+                        An alarm clock is a clock with a function that can be activated to ring at a time set in advance, used to wake someone up.
+                    </p>
+                    <a href="https://colab.research.google.com/drive/1vT9tKG1wflq-haPembS4A0at9HB-cqG8?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                 </div>
+
+            </div>
+            <div class="work">
+                <img src="images/EquationS.jpg">
+                <div class="layer">
+                    <h3>
+                        Equation Solver
+                    </h3>
+                    <p>
+                        An equation solver through which the user can use to solve equation when there are two unkwown variables.
+                    </p>
+                    <a href="https://colab.research.google.com/drive/15tTxJyNqAcDH3QKEaZZF2ZFZecojn4So?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                 </div>
+                
+            </div>
+        </div>
+        <a href="https://github.com/Rparakh24/projects" class = "btn">See More</a>
+    </div>
+</div>
+<!--------contacts------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ronitparakh24@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ronit-parakh-45a6361b2/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/ronit_parakh?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Rparakh24"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="RonitParakh_Resume.pdf" download class = "btn btn2" href="">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class = "btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made by Ronit Parakh</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbza6lKRPGC_4vw0zOFrEtJFBppMGPEalLlorm6016Xuwd_kTUmCTN9JrdmE066cfFdR7g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""},5000)
+                form.reset();
+            })
+        })
+        .catch(error => console.error('Error!', error.message))
+    
+  </script>
+</body>
+</html>
