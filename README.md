@@ -1,4 +1,3 @@
-#Portfolio
 Hello
 I am Ronit Parakh a fresher at Thapar Institute of Engineering and Technology pursuing BTech in Electronic and Computer Engineering. 
 Refer to my portfolio-website to know more about me.
