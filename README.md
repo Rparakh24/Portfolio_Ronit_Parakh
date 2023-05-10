@@ -5,7 +5,7 @@ Refer to my portfolio-website to know more about me.
 1)Portfolio-Website:- A website to know more about who I am. 
 projects/portfoli_website/index.html for HTML file
 projects/portfoli_website/styles.css for CSS file
-Here is the link for My Portfolio:- https://portfolio-qmizp3jlj-rparakh24.vercel.app/
+Here is the link for My Portfolio:- https://projects-three-rho.vercel.app/
 
 2)Alarm Clock:- A project based on Python while will take a user input for time and will beep at that time.
 
